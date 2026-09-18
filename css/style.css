@@ -159,81 +159,13 @@ section {
 }
 
 .toptop {
-    display: inline-block;
     position: fixed;
     bottom: 90px;
-    right: 5px;
+    right: 3px;
     color: #00669F;
     font-size: 50px;
+    z-index: 999;
 }
-
-footer {
-    text-align: left;
-    background-color: #005677;
-    color: #FFFFFF;
-    padding: 20px;
-    width: 100%;
-    margin-top: 45px;
-}
-
-
-/* padding: 30px 0;*/
-
-
-.pie-pagina {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.pie-pagina span {
-    width: 100%;
-    text-align: center;
-    color: #FFF9F9;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.pie-pagina img {
-    position: absolute;
-    right: 30px;
-    width: 130px;
-}
-
-/* Tablets  */
-
-@media (max-width: 768px) {
-    .pie-pagina span {
-        font-size: 15px;
-    }
-
-    .pie-pagina img {
-        width: 120px;
-    }
-}
-
-/* Smartphones */
-
-@media (max-width: 480px) {
-    .pie-pagina span {
-        font-size: 10px;
-    }
-
-    .pie-pagina img {
-        width: 80px;
-        position: inherit;
-    }
-
-    .pie-pagina {
-        padding-left: 10px;
-    }
-
-    .toptop {
-        font-size: 35px;
-    }
-}
-
 
 /* FORMULARIO  */
 
@@ -328,4 +260,113 @@ hr {
     border-radius: 20px;
     margin-bottom: 10px;
     border: none;
+}
+
+footer {
+    text-align: left;
+    background-color: #005677;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 100%;
+    margin-top: 45px;
+}
+
+
+/* padding: 30px 0;*/
+
+
+.pie-pagina {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pie-pagina span {
+    width: 100%;
+    text-align: center;
+    color: #FFF9F9;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pie-pagina img {
+    position: absolute;
+    right: 30px;
+    width: 130px;
+}
+
+/* Tablets  */
+
+@media (max-width: 768px) {
+    .formulario {
+        width: 85%;
+    }
+
+    .toptop {
+        font-size: 45px;
+    }
+
+    .pie-pagina span {
+        font-size: 14px;
+    }
+
+    .pie-pagina img {
+        width: 110px;
+    }
+}
+
+/* Smartphones */
+
+@media (max-width: 480px) {
+    .top-nav {
+        font-size: 12px;
+        height: 5px;
+        padding: 5px;
+        padding-bottom: 16px;
+    }
+
+    .menu {
+        font-size: 12px;
+    }
+
+    .form h2 {
+        font-size: 35px;
+    }
+
+    .form p {
+        font-size: 10px;
+    }
+
+    .form-col {
+        flex-direction: column;
+        align-content: space-around;
+    }
+
+    .form-columnas {
+        width: 80%;
+        align-items: flex-start;
+        margin: 0px;
+    }
+
+    .btn-form {
+        font-size: 25px;
+        max-width: 250px;
+    }
+
+    .pie-pagina span {
+        font-size: 10px;
+    }
+
+    .pie-pagina img {
+        width: 80px;
+        position: inherit;
+    }
+
+    .pie-pagina {
+        padding-left: 10px;
+    }
+
+    .toptop {
+        font-size: 35px;
+    }
 }
