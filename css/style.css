@@ -161,7 +161,7 @@ section {
 .toptop {
     position: fixed;
     bottom: 90px;
-    right: 3px;
+    right: 5px;
     color: #00669F;
     font-size: 50px;
     z-index: 999;
@@ -304,6 +304,7 @@ footer {
 
     .toptop {
         font-size: 45px;
+        right: 3px;
     }
 
     .pie-pagina span {
@@ -368,5 +369,6 @@ footer {
 
     .toptop {
         font-size: 35px;
+        right: 3px;
     }
 }
